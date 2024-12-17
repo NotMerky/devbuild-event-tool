@@ -23,15 +23,10 @@ This tool allows you to enable or disable specific in-game events for Dead by Da
 - **DevServerPath.sav**: The tool reads a file located in `%localappdata%\DBD.DevBuildLauncher\DevServerPath.sav` to find the directory of the events configuration.
 
 ## Installation
-
-1. Ensure that you have Python 3.x installed on your system.
-2. Clone or download this repository to your local machine.
-3. Install the required Python dependencies:
-   ```bash
-   pip install hjson
-4. Build the .exe file (if you want a standalone version) using PyInstaller:
-      ```bash
-   pyinstaller --onefile --icon=your_icon.ico --name=DevBuildEventTool main.py
+1. Go to the [Releases tab](https://github.com/NotMerky/devbuild-event-tool/releases).
+2. Download `DevBuildEventTool.exe` to any location you'd like.
+3. Run `DevBuildEventTool.exe`.
+4. If you haven't setup the updated Developr Build Launcher by Smirkzzy you can find it linked in the Attributions area.
 
 ## Usage
 1. Run the tool.
